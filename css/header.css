@@ -1,0 +1,165 @@
+/*CABEÇALHO*/
+
+/*Estilos do Cabeçalho*/
+header{
+    /*Todos os itens ficam na mesma linha horizontal*/
+    display: flex;
+    flex-wrap: wrap;
+    /*Todos os itens ficam centralizado*/
+    align-content: center;
+    /*Largura*/
+    max-width: 1980px;
+    /*Altura*/
+    max-height: 40px;
+    /*Preenchimento*/
+    padding: 1% 0;
+    /*Sem Scrool*/
+    overflow: hidden;
+}
+
+/*BOTÕES*/
+
+/*Estilo do Botão Padrão*/
+button{
+    /*Cor*/
+    background-color: #ffffff; /*Branco*/
+    /*Altura e Largura com tamanho Arredondado*/
+    height: 50px;
+    width: 50px;
+    /*Formato do Botão*/
+    border-radius: 50%; /*Arrendodar*/
+}
+
+/*Botão do Menu no Cabeçalho*/
+button.botaomenu{
+    /*Posição do Botão*/
+    position: absolute;
+    top: -7px;
+    margin: 1% 1%;
+}
+
+/*Botão de Pesquisar*/
+button.pesquisar{
+    /*Cor de Fundo*/
+    background-color: #f8f8f8;
+    /*Posição do Botão*/
+    position: relative;
+    left: -80px;
+    top: 4px;
+    /*Altura e Largura do Botão*/
+    width: 80px;
+    height: 47px;
+    /*Formato do Botão*/
+    border-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /*Borda do Pesquisar*/
+    border: 1px solid rgb(210, 210, 210);
+}
+
+/*Botão do Microfone*/
+button.microfone{
+    /*Cor de Fundo*/
+    background-color: #E9E9E9;
+    /*Posição do Microfone*/
+    position: relative;
+    left: 400px;
+}
+
+/*Botao com Efeitos ao Colocar a Seta no Botão*/
+button:hover{
+    /*Cor de Fundo*/
+    background-color: #E5E5E5;
+    /*Efeito de Mudar Cor*/
+    border: 1px solid rgb(111, 111, 111);
+}
+
+/*LOGO*/
+
+/*Logo do YouTube*/
+header > div.logoyoutube{
+    /*Mudar a posição da Logo*/
+    position: relative;
+    left: 80px;
+    width: 140px;
+    height: 50px;
+}
+
+/*Link da Logo do YouTube*/
+header > div.logoyoutube > a{
+    /*Posição Relativa*/
+    position: relative;
+    /*Sem decoração*/
+    text-decoration: none;
+    /*Tudo Maisculo*/
+    text-transform: uppercase;
+    /*Cor Preto*/
+    color: black;
+    /*Posição do Link da Logo*/
+    top: -105px;
+    left: 0px;
+}
+
+/*Imagem da Logo do YouTube em SVG*/
+header > div.logoyoutube > a > svg{
+    /*Posição da Imagem da Logo do Youtube*/
+    position: relative;
+    top: 80px;
+    left: 10px;
+    height: 100px;
+}
+
+/*A palavra BR da Logo do YouTube*/
+header > div.logoyoutube > a > sup.logoyoutubebr{
+    /*Posição do BR da Logo do Youtube*/
+    position: relative;
+    left: 15px;
+    top: 30px;
+}
+
+/*PESQUISAR*/
+
+/*Posição do Pesquisar*/
+header > div.caixadepesquisa{
+    /*Posição do Pesquisar*/
+    position: relative;
+    left: 420px;
+    top: -2px;
+}
+
+/*Remover a Borda ao Clicar na Caixa de Pesquisar*/
+header > div.caixadepesquisa > input:focus{
+    border: 1px solid #8f8d8d;
+    outline: 0;
+}
+
+/*Estilos do Pesquisar*/
+header > div.caixadepesquisa > input{
+    /*Tamanho*/
+    width: 725px;
+    height: 45px;
+    /*Formato da Borda*/
+    border-radius: 20px;
+    /*Borda do Pesquisar*/
+    border: 1px solid rgb(210, 210, 210);
+    /*Fonte do texto ao digitar*/
+    font-size: 20px;
+}
+
+/*Estilo do PlaceHolder*/
+header > div.caixadepesquisa > input::-webkit-input-placeholder{
+    position: relative;
+    top: 2px;
+    left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+/*Estilo do PlaceHolder*/
+header > div.caixadepesquisa > :-ms-placeholder{
+    position: relative;
+    top: 2px;
+    left: 20px;
+    font-size: 20px;
+    color: black;
+}

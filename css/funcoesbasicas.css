@@ -1,0 +1,31 @@
+/*GRUPO DE FUNÇÕES BASICAS*/
+
+/*Tamanho do Grupo de Funções Básicas*/
+menu >  div.grupodefuncoesbasicas{
+    /*Tamanho da Altura e Largura*/
+    height: 100%;
+    width: 100px;
+}
+
+/*Estilo dos Botôes da Funções Básicas*/
+menu > div.grupodefuncoesbasicas > button.funcao{
+    /*Posição dos Botôes*/
+    position: relative;
+    left: 2px;
+    width: 80px;
+    height: 90px;
+    /*Borda Quadricular com Arrendomento nos Cantos.*/
+    border-radius: 10px;
+}
+
+/*Posição dos Icones SVG dos Botôes das Funções Básicas*/
+menu > div.grupodefuncoesbasicas > button.funcao > svg.funcaocentralizar{
+    position: relative;
+    left: 25px;
+}
+
+/*Efeito de Trocar de Cor ao Passar a Seta no Botão*/
+menu > div.grupodefuncoesbasicas > button.funcao:hover{
+    /*Cor de Fundo*/
+    background-color: #E5E5E5;
+}

@@ -1,0 +1,40 @@
+/*GRUPO DE CATEGORIAS*/
+
+/*Posição e Tamanho do Grupo de Categorias*/
+menu > div.categoria{
+    /*Posição, Altura e Largura*/
+    position: relative;
+    left: 100px;
+    top: -340px;
+    height: 50px;
+    width: 1820px;
+}
+
+/*Estilos do Botão das Categorias*/
+menu > div.categoria > button{
+    /*Cor de Fundo*/
+    background-color: #E8E8E8;
+    /*Formato dos Botôes*/
+    border-radius: 10px;
+    /*Tamanho dos Botôes*/
+    width: 125px;
+    height: 40px;
+    /*10 Pixel para a Margem da Direita*/
+    margin-right: 10px;
+}
+
+/*Estilos dos Paragrafos nos Botôes*/
+menu > div.categoria > button > p{
+    /*Familia da Fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Fonte em Negrito*/
+    font-weight: bold;
+    /*Tamanho da Fonte*/
+    font-size: 18px;
+}
+
+/*Efeito de Mudar a Fonte ao Passar o Mouse no Botão*/
+menu > div.categoria > button:hover{
+    /*Cor de Fundo*/
+    background-color: #E2E2E2;
+}
